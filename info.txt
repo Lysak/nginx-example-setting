@@ -6,6 +6,6 @@ sudo ln -s /usr/share/phpmyadmin/ /var/www/firstproject.loc/html/
 sudo service nginx restart
 sudo service nginx reload
 sudo systemctl restart nginx
-sudo chmod -R 777 /var/www (192.168.0.5     firstproject.loc)
-sudo nano /etc/hosts
+sudo chmod -R 777 /var/www
+sudo nano /etc/hosts (192.168.0.5     firstproject.loc)
 sudo nginx -t
