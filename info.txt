@@ -1,2 +1,9 @@
 /var/www/ => firstproject.loc
 /etc/ => nginx
+
+sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com
+sudo service nginx restart
+sudo systemctl restart nginx
+sudo chmod -R 777 /var/www
+sudo nano /etc/hosts
+sudo nginx -t
