@@ -4,6 +4,6 @@
 sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/example.com
 sudo service nginx restart
 sudo systemctl restart nginx
-sudo chmod -R 777 /var/www
+sudo chmod -R 777 /var/www (192.168.0.5     firstproject.loc)
 sudo nano /etc/hosts
 sudo nginx -t
