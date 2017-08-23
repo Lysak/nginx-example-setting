@@ -7,5 +7,5 @@ sudo service nginx restart
 sudo service nginx reload
 sudo systemctl restart nginx
 sudo chmod -R 777 /var/www
-sudo nano /etc/hosts (192.168.0.5     firstproject.loc)
+sudo nano /etc/hosts (127.0.0.1     firstproject.loc)
 sudo nginx -t
