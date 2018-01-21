@@ -14,3 +14,11 @@ sudo nginx -t
 /var/www/
 /etc/nginx/
 /var/log/nginx/
+
+update 1.13.8
+sudo chmod -R 777 /var/run/php/*
+@
+Or create /etc/nginx/sites-available and /etc/nginx/sites-enabled and then edit the http block inside /etc/nginx/nginx.conf and add this line
+
+include /etc/nginx/sites-enabled/*;
+@
